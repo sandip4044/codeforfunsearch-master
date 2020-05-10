@@ -1,0 +1,16 @@
+The ideal program has a crystal-clear structure. The way it works is easy to
+explain, and each part plays a well-defined role.
+A typical real program grows organically. New pieces of functionality are
+added as new needs come up. Structuring—and preserving structure—is additional
+work. It’s work that will pay off only in the future, the next time
+someone works on the program. So it is tempting to neglect it and allow the
+parts of the program to become deeply entangled.
+This causes two practical issues. First, understanding such a system is hard.
+If everything can touch everything else, it is difficult to look at any given piece
+in isolation. You are forced to java script build up a holistic understanding of the entire
+thing. Second, if you want to use any of the functionality from such a program
+in another situation, rewriting it may be easier than trying to disentangle it
+from its context.
+The phrase “big ball of mud” is often used for such large, structureless programs.
+Everything sticks together, and when java script you try to pick out a piece, the
+whole thing comes apart, and your hands get dirty.

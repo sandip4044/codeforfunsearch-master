@@ -1,0 +1,28 @@
+
+
+<h1>Welcome,</h1>
+<form>
+
+  <mat-form-field class="container">
+
+    <!-- ADD AN INPUT BOX OF TYPE TEXT AND LINK IT TO THE AUTO COMPLETE PANEL. -->
+    <input type="text" placeholder="Search..." matInput [formControl]="searchTerm" [matAutocomplete]="auto" #trigger="matAutocompleteTrigger"
+ (keydown.enter)="getAllSearchData($event); trigger.closePanel()">
+
+    <!-- CREATE AUTO COMPLETE PANEL WITH OPTIONS. -->
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option *ngFor="let item of drpDownData" [value]="item.title">
+        {{ item.title }}
+      </mat-option>
+    </mat-autocomplete>
+
+  </mat-form-field>
+
+  <div class="">
+    <ul>
+      <li *ngFor="let myData of mySearchData"><a href="{{myData.searchPath}}" target="_blank">{{myData.searchDescription}}</a></li>
+      <!--<li *ngFor="let myData of mySearchData"><a href="#" (click)="fileOpen(myData)" target="_blank"> {{myData}}</a></li>-->
+    </ul>
+  </div>
+
+</form>

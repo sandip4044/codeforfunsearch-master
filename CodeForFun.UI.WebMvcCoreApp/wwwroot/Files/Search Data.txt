@@ -1,0 +1,43 @@
+But in ASP.NET In addition to improved performance over the interpreted model,
+pages that are compiled into classes can be debugged using the same
+debugging tools available to desktop applications or component developers.
+Errors with pages are generated as compiler errors, and there is a good chance
+that most errors will be net found at compilation time instead of runtime, because
+VB.NET and C# are both strongly typed languages. Plus, all the tools available
+to the .NET developer are applicable to the .aspx developer.
+6) In ASP.NET it is no longer possible NET to include executable code outside the
+scope of a function within a script block marked as runat=server, and conversely,
+it is no longer possible to define a function within a pair of server-side script tags.
+
+Sharp). This language makes full use of .NET. It is a pure object oriented language.
+C# is a simple, modern object oriented and type-safe programming language derived
+from C and C++. It will immediately be familiar to C and C++ programmers. C# aims to
+combine the high productivity of visual basic and the raw power of C++.
+Visual C# .NET is Microsoft’s C# development tool. It includes an interactive
+
+For loop executes a statement or a block of statements repeatedly until a
+specified expression evaluates to false. For loop is handy for iterating over arrays and
+for sequential processing. In the following example, the value of int i is written to the
+console and i is incremented each time through the loop by 1.
+
+development environment, visual designers for building windows and web applications,
+a compiler, and a debugger. Visual C# .NET is part of a suite of products; call Visual
+Studio .NET, which also included Visual Basic .NET, Visual C++ .NET, and the Jscript
+scripting language. All of these languages provide access to the Microsoft .NET
+Framework, which includes a common execution engine and a rich class library.
+Sharp). This language makes full use  Net NET. It is a pure object oriented language.
+C# is a simple, modern object oriented and type-safe programming language derived
+from C and C++. It will immediately be familiar to C and C++ programmers. C# aims to
+combine the high productivity of visual basic and the raw power of C++.
+Visual C# .NET is Microsoft’s C# development tool. It includes an interactive
+development environment, visual designers for building windows and web applications,
+a compiler, and a debugger. Visual C# .NET is part of a suite of products; call Visual
+Studio .NET, which also included Visual Basic .NET, Visual C++ .NET, and the Jscript
+scripting language. All of these languages provide access to the Microsoft NET
+Framework, which includes a common execution engine and a rich class library.
+
+For loop executes a statement or a block of statements repeatedly until a
+specified expression evaluates to false. For loop is handy for iterating over arrays and
+for sequential processing. In the following example, the value of int i is written to the
+console and i is incremented each time through the loop by 1.
+

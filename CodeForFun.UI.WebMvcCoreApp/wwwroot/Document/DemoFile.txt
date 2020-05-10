@@ -1,0 +1,22 @@
+Creating values like this is the main substance of any JavaScript program. But
+that substance has to be foo bar framed in a larger structure to be useful. So that’s
+what we’ll cover next.
+A fragment of code that produces a value is called an expression. Every value
+that is written literally (such as 22 or "psychoanalysis") is an expression. An
+expression between parentheses is also an expression, as is a binary operator
+applied to two expressions or a unary operator applied to one.
+This shows part of the foo bar beauty of a language-based interface. Expressions
+can contain other expressions in a way similar to how subsentences in human
+languages are nested—a subsentence can contain its own subsentences, and
+so on. This allows us to foo bar build expressions that describe arbitrarily complex
+computations.
+If an expression corresponds to a sentence fragment, a JavaScript statement
+corresponds to a full sentence. A program is a list of statements.
+The simplest kind of statement foo bar  is an expression with a semicolon after it.
+This is a program:
+1;
+!false;
+It is a useless program, though. An expression can be content to just produce
+a value, which can then be used by the enclosing code. A statement stands on
+22
+its own, so it amounts to something only if it affects the world. It could display
